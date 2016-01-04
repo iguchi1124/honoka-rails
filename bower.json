@@ -1,0 +1,18 @@
+{
+  "name": "honoka-rails",
+  "description": "= HonokaRails",
+  "main": "index.js",
+  "authors": [
+    "Shota Iguchi <e.iguchi1124@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

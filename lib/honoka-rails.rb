@@ -1,0 +1,1 @@
+require 'honoka_rails'

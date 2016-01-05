@@ -14,5 +14,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "devDependencies": {
+    "Honoka": "honoka#~3.3.6",
+    "bootstrap-sass": "~3.3.6"
+  }
 }

@@ -19,8 +19,9 @@ Import Bootstrap(Honoka) styles in app/assets/stylesheets/application.scss:
 $ mv app/assets/stylesheets/application.css app/assets/stylesheets/application.scss
 ```
 
+"bootstrap-sprockets" must be imported before "honoka" and "honoka/variables"
+
 ```scss
-// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
 @import "honoka";
 ```
@@ -42,5 +43,6 @@ bootstrap-sprockets and bootstrap should not both be included in application.js.
 
 ## References
 
-[bootstrap-sass](https://github.com/twbs/bootstrap-sass)
-[Honoka](http://honokak.osaka/)
+ * [bootstrap-sass](https://github.com/twbs/bootstrap-sass)
+
+ * [Honoka](http://honokak.osaka/)

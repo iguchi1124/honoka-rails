@@ -1,8 +1,10 @@
-# Configure Rails Environment
-ENV["RAILS_ENV"] = "test"
+ENV['RAILS_ENV'] = 'test'
 
-require File.expand_path("../../test/dummy/config/environment.rb",  __FILE__)
-require "rails/test_help"
+require File.expand_path('../../test/dummy/config/environment.rb',  __FILE__)
+require 'rails/test_help'
+
+require 'capybara/poltergeist'
+require 'capybara/rails'
 
 # Filter out Minitest backtrace while allowing backtrace from other libraries
 # to be shown.
@@ -18,7 +20,7 @@ if ActiveSupport::TestCase.respond_to?(:fixture_path=)
   ActiveSupport::TestCase.fixtures :all
 end
 
-require 'capybara/poltergeist'
+GEM_PATH = File.expand_path('../', File.dirname(__FILE__))
 
 Capybara.register_driver :poltergeist do |app|
   Capybara::Poltergeist::Driver.new(
@@ -37,7 +39,3 @@ Capybara.configure do |config|
   config.server_port       = 7000
   config.default_max_wait_time = 10
 end
-
-require 'capybara/rails'
-
-GEM_PATH = File.expand_path('../', File.dirname(__FILE__))

@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Shota Iguchi"]
   s.email       = ["e.iguchi1124@gmail.com"]
   s.homepage    = "https://github.com/iguchi1124/honoka-rails"
-  s.summary     = ""
-  s.description = ""
+  s.summary     = "To mount Honoka a simple bootstrap-theme on rails."
+  s.description = "To mount Honoka on rails. Honoka is a simple and friendly japanese bootstrap-theme."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]

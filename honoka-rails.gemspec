@@ -9,15 +9,15 @@ Gem::Specification.new do |s|
   s.version     = HonokaRails::VERSION
   s.authors     = ["Shota Iguchi"]
   s.email       = ["e.iguchi1124@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of HonokaRails."
-  s.description = "TODO: Description of HonokaRails."
+  s.homepage    = "https://github.com/iguchi1124/honoka-rails"
+  s.summary     = ""
+  s.description = ""
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 4.2.5"
+  s.add_dependency "rails", "< 5.1"
 
   s.add_development_dependency "sqlite3"
 end

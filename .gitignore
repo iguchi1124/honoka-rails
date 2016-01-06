@@ -83,6 +83,8 @@ bower_components
 .bower-tmp
 
 
+Gemfile.lock
+*.gemfile.lock
 .bundle/
 log/*.log
 pkg/

@@ -43,3 +43,4 @@ bootstrap-sprockets and bootstrap should not both be included in application.js.
 ## References
 
 [bootstrap-sass](https://github.com/twbs/bootstrap-sass)
+[Honoka](http://honokak.osaka/)

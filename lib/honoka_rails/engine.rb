@@ -1,5 +1,6 @@
 module HonokaRails
   class Engine < ::Rails::Engine
+    # Inspired by bootstrap-sass
     initializer 'honoka-rails.assets.precompile' do |app|
       %w(stylesheets javascripts fonts images).each do |sub|
         app.config.assets.paths << root.join('assets', sub).to_s

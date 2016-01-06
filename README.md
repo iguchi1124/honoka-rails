@@ -8,7 +8,7 @@ honoka-rails is easy to drop into Rails with the asset pipeline.
 
 ```rb
 gem 'sass-rails', '>= 3.2'
-gem 'honoka-rails', github: 'iguchi1124/honoka-rails'
+gem 'honoka-rails'
 ```
 
 bundle install and restart your server to make the files available through the pipeline.

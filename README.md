@@ -45,4 +45,4 @@ bootstrap-sprockets and bootstrap should not both be included in application.js.
 
  * [bootstrap-sass](https://github.com/twbs/bootstrap-sass)
 
- * [Honoka](http://honokak.osaka/)
+ * [Honoka](https://github.com/windyakin/Honoka)

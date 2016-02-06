@@ -5,10 +5,11 @@ rename = require 'gulp-rename'
 gulp.task 'clean', ->
   gulp.src('assets').pipe clean(force: true)
 
-gulp.task 'copy', ->
+gulp.task 'copy:bootstrap-sass', ->
   gulp.src([ 'bower_components/bootstrap-sass/assets/**/*' ])
     .pipe gulp.dest('assets')
 
+gulp.task 'copy:honoka', ->
   gulp.src([ 'bower_components/Honoka/scss/honoka/*' ])
     .pipe gulp.dest('assets/stylesheets/honoka')
 

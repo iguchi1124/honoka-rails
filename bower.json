@@ -16,7 +16,7 @@
     "tests"
   ],
   "devDependencies": {
-    "Honoka": "v3.3.6-a",
-    "bootstrap-sass": "~3.3.6"
+    "Honoka": "v3.3.7",
+    "bootstrap-sass": "~3.3.7"
   }
 }

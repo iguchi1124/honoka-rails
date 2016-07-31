@@ -1,3 +1,3 @@
 module HonokaRails
-  VERSION = "3.3.6.4"
+  VERSION = "3.3.7"
 end

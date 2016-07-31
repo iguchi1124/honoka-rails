@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/iguchi1124/honoka-rails.svg?branch=master)](https://travis-ci.org/iguchi1124/honoka-rails)
 
-[Honoka](https://github.com/windyakin/Honoka) is a bootstrap theme for Japanese. 
+[Honoka](https://github.com/windyakin/Honoka) is a bootstrap theme for Japanese.
 
 honoka-rails mount Honoka on your rails application, and has been developed based on [bootstrap-sass](https://github.com/twbs/bootstrap-sass).
 
@@ -12,7 +12,7 @@ honoka-rails is easy to drop into Rails with the asset pipeline.
 
 ```rb
 gem 'sass-rails', '>= 3.2'
-gem 'honoka-rails', '>= 3.3.6.3'
+gem 'honoka-rails'
 ```
 
 bundle install and restart your server to make the files available through the pipeline.
